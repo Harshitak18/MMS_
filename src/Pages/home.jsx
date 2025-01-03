@@ -1,14 +1,15 @@
-import React, { useContext } from 'react'
+import React  from 'react'
 import "../styleSheets/home.css"
 // import Slider from '../components/slider'
 import Slider2 from '../components/Slider2'
-import Header from '../components/header'
-import { ThemeEffect } from '@/store/themeEffect'
+import Header from '../components/Header'
+
+
 
 
 function Home() {
 
-  const {blur} = useContext(ThemeEffect)
+
 
 
   return (
